@@ -1,0 +1,25 @@
+html {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navigation-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 40em;
+}
+
+.navigation-tab button {
+  width: 7em;
+  height: 3em;
+  color: rgb(4, 4, 45);
+  background-color: white;
+  border: transparent;
+}
+
+.navigation-tab button:active {
+  color: rgb(29, 223, 223);
+}
+
+.navigation-tab button:hover {
+  border-bottom: 5px solid rgb(201, 47, 165);
+}

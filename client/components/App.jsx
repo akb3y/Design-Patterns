@@ -1,15 +1,16 @@
 import React from 'react'
+import NavTabs from './navigation-tabs/nav-tabs.jsx'
 
-class App extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
-    render() {
+function App() {
         return (
-            <h1>Hello World</h1>
+            <div className="app">
+                <h1>Design Patterns</h1>
+                <h3>Navigation Tabs</h3>
+                <div className="navigation-tab">
+                    <NavTabs />
+                </div>
+            </div>
         )
-    }
 }
 
-export default App
+export default App;
