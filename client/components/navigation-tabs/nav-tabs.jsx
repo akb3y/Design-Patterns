@@ -1,12 +1,13 @@
 import React from 'react'
 
-function NavTabs(){
+function NavTabs(props){
+  const {tab, setTab} = props;
   return (
     <>
-    <button onClick={() => alert('#1 Clicked')}>Link #1</button>
-    <button onClick={() => alert('Hello World')}>Link #2</button>
-    <button onClick={() => alert('Hi!!!')}>Link #3</button>
-    <button onClick={() => alert('You clicked me?')}>Link #4</button>
+    <button onClick={() => setTab(1)}>Password Strength</button>
+    <button onClick={() => setTab(2)}>Drag and Drop</button>
+    <button onClick={() => setTab(3)}>Link #3</button>
+    <button onClick={() => setTab(4)}>Link #4</button>
     </>
   )
 }
