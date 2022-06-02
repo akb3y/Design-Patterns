@@ -5,7 +5,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-right: 40em;
+  padding-right: 40%;
 }
 
 .navigation-tab button {
@@ -22,4 +22,15 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .navigation-tab button:hover {
   border-bottom: 5px solid rgb(201, 47, 165);
+}
+
+.password {
+  width: 20em;
+  font-weight: bolder;
+  padding-left: 5%;
+}
+
+.traffic-cone {
+  color: #ff6700;
+  font-size: xx-large;
 }
